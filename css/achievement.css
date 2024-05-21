@@ -1,0 +1,32 @@
+.achievement {
+  position: relative;
+}
+.achievement .achievement-bg {
+  background-image: url(../img/memphis_3.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50% auto;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.achievement .container-lg {
+  margin-top: 30px;
+  z-index: 3;
+}
+.achievement .title {
+  border: 1px solid transparent;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+  padding: 40px;
+}
+
+.logo-award .col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}

@@ -1,0 +1,48 @@
+.navs--projects .nav-item button {
+  border: 1px solid black;
+}
+.navs--projects .nav-item button.active {
+  background-color: #35a22c;
+  color: #fff;
+  border-color: transparent;
+}
+
+.tab-content .col-4 {
+  padding: 30px;
+}
+
+.project .project--item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  text-align: center;
+}
+
+.project--item img {
+  border-color: transparent;
+}
+
+.project--item:hover {
+  border-color: #35a22c;
+}
+
+.project--item .item-text {
+  padding: 10px;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+  border-top: none;
+}
+.project--item:hover .item-text {
+  border-color: #35a22c;
+}
+.project--item .item-text h5 {
+  margin: 10px 0;
+  font-size: 1.25rem;
+  transition: all 0.5s;
+}
+
+.project--item:hover .item-text h5 {
+  color: #35a22c;
+}
+.project--item .item-text h5 .project--item .item-text span {
+  color: #585858;
+  margin-bottom: 20px;
+}

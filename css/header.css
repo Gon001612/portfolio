@@ -1,0 +1,36 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 100;
+  transform: translateX(-50%);
+}
+
+header .collapse .nav-link:hover {
+  color: green !important;
+}
+
+header .collapse .nav-link::before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: green;
+  transition: all 0.5s;
+  opacity: 0;
+  position: absolute;
+}
+
+header .collapse .nav-link:hover::before {
+  opacity: 1;
+  width: 100%;
+}
+
+header .collapse a.active {
+  color: green !important;
+}
+
+header .collapse .active::before {
+  width: 100%;
+}
